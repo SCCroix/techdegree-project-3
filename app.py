@@ -11,5 +11,6 @@ from phrasehunter.phrase import Phrase
 
 if __name__ == "__main__":
     game = Game()
-    phrase = Phrase("Hello")
-    
+
+    for phrase in game.phrases:
+        print(phrase)
